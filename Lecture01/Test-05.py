@@ -12,6 +12,5 @@ total_grams = total_lots * 13.3
 kg = int(total_grams // 1000)
 g = total_grams % 1000
 
-# Output result
 print("\nThe weight in modern units:")
 print(kg, "kilograms and", round(g, 2), "grams.")
