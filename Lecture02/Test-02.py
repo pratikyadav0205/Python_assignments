@@ -1,8 +1,6 @@
 #Assignment 2
 
-user_class = input("Enter cabin class (LUX, A, B, C): ")
-
-user_class = user_class.upper()
+user_class = input("Enter cabin class (LUX, A, B, C): ").upper()
 
 if user_class == "LUX":
     print("Upper-deck cabin with a balcony.")
